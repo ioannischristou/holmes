@@ -1,0 +1,7 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Code is distibuted as Open Source, under the LGPL2 license, without any waranty of fitness of use.
+<#if licenseLast??>
+${licenseLast}
+</#if>

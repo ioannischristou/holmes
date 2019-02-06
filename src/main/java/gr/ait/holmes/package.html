@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Code is distibuted as Open Source, under the LGPL2 license, without any waranty of fitness of use.
+-->
+<html>
+  <head>
+    <title>Holmes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div>Holmes (in honor of John Holmes, the partner of Miss Linda Lovelace,
+    the actress whose name was given to the Yale University project "Linda") is
+    a distributed computing software project aiming to provide yet another fast?
+    cluster-based shared memory illusion with particular emphasis on numerical
+    computations of large (sparse or dense) matrices and vectors.
+    
+    The system architecture is rather simple, in that a dedicated set of data
+    node processes acts as the (distributed) storage of the tuple-space, while
+    another set of dictionary nodes acts as an LDAP lookup-and-forward service:
+    the dictionary nodes know which server holds what keys, and thus are able
+    to get the values of the lookup requests of their clients and return them to
+    the clients. The dictionary nodes are also responsible for maintaining a 
+    consistent state among themselves (thus guaranteeing that after a client
+    "puts" a tuple in Holmes, a subsequent request arriving at any other dict
+    node will be correctly honored; similarly, if a client requests removal of
+    a tuple from Holmes, and it is honored, subsequent requests arriving at any
+    other dict node will report that no such tuple exists -or will block until
+    the tuple is put back in, depending on the semantics of the request.)
+    </div>
+  </body>
+</html>
