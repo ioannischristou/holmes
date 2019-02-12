@@ -20,7 +20,7 @@ public class BenchDiskNetServer {
 
     private static int ServerPort = 10000;
     private static final String FName = "data.dat";
-    private static final int BSIZE = 100000000;
+    private static final int BSIZE = 1073741824; // 2^30 = 1Gb
 
     private static void error(String msg, boolean toExit) {
         System.err.println("Data Server: " + msg);

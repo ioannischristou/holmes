@@ -18,7 +18,7 @@ import java.util.Scanner;
  */
 public class BenchDiskNetClient {
 
-    private static final int BSIZE = 100000000;
+    private static final int BSIZE = 1073741824; // 2^30 = 1Gb
     private static String ServerHost = "localhost";
     private static int ServerPort = 10000;
 
