@@ -15,7 +15,7 @@ import java.io.FileOutputStream;
 public class BenchDiskNet {
 
     private static final String FName = "data.dat";
-    private static final int BSIZE = 1073741824; // 2^30 = 1Gb
+    private static final int BSIZE = 0x40000000; // 2^30 = 1Gb
 
     /**
      * @param args the command line arguments
