@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gr.ait.holmes.exceptions;
+package gr.ait.holmes.server.commands;
+
+import java.io.Serializable;
 
 /**
  *
  * @author sefr
  */
-public class NotInRange extends Exception {
-
-    public NotInRange() {
+public class ExitCommand extends Command implements Serializable {
+    
+    public ExitCommand() {
         
     }
     

@@ -3,7 +3,7 @@
  */
 package gr.ait.holmes;
 
-import gr.ait.holmes.exceptions.*;
+import gr.ait.holmes.server.exceptions.*;
 import java.io.Serializable;
 import java.util.List;
 

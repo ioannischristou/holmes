@@ -3,7 +3,7 @@
  */
 package gr.ait.holmes;
 
-import gr.ait.holmes.exceptions.InvalidRange;
+import gr.ait.holmes.server.exceptions.InvalidRange;
 
 /**
  * represents a single compact closed from both ends range of primary keys.
