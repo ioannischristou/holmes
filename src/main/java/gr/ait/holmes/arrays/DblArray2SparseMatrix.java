@@ -9,7 +9,7 @@ package gr.ait.holmes.arrays;
  * sparse 2-D matrix class containing doubles. The representation is row-based.
  * @author itc
  */
-public class DblArray2SparseMatrix {
+public class DblArray2SparseMatrix implements MatrixIntf {
 	private DblArray1SparseVector[] _rows;
 	
 	
